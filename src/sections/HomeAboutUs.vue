@@ -1,15 +1,19 @@
 <template>
   <div class="w-full bg-[#FDF731] py-10">
-    <div class="flex gap-5 max-w-[1200px] mx-auto my-0 justify-between">
+    <div
+      class="flex flex-col-reverse lg:flex-row gap-5 max-w-[1200px] lg:w-full w-[90%] mx-auto my-0 justify-between"
+    >
       <img
         src="../../public/home/IMG_0925.webp"
         class="w-[500px] object-cover cursor-pointer"
         alt=""
         @click="openModal('../../public/home/IMG_0925.webp')"
       />
-      <div class="flex flex-col gap-8 max-w-[50%] py-15">
-        <h2 class="text-[#5FB822] anton text-[60px]">À PROPOS DE NOUS</h2>
-        <p class="calibri calibri text-[21px]">
+      <div class="flex flex-col gap-8 lg:max-w-[50%] lg:py-15 py-12">
+        <h2 class="text-[#5FB822] anton text-[30px] lg:text-[60px]">
+          À PROPOS DE NOUS
+        </h2>
+        <p class="calibri text-[18px] lg:text-[21px]">
           <span class="font-semibold"
             >BantouClub est un espace culturel itinérant et créatif dédié à la
             valorisation des expressions afrodescendantes et diasporiques

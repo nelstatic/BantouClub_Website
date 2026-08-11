@@ -1,8 +1,10 @@
 <template>
   <div class="notre-int bg-[#FDF731] w-full py-14">
-    <div class="flex justify-between max-w-[1200px] mx-auto my-0">
-      <div class="col-1 flex flex-col max-w-3/7 gap-12">
-        <h1 class="anton text-[60px]">NOTRE INTENTION</h1>
+    <div
+      class="flex justify-between lg:max-w-[1200px] lg:w-full w-[90%] mx-auto my-0 flex-col lg:flex-row"
+    >
+      <div class="col-1 flex flex-col lg:max-w-3/7 gap-12 pb-10 lg:pb-0">
+        <h1 class="anton text-[50px] lg:text-[60px]">NOTRE INTENTION</h1>
         <p class="calibri font-bold text-[16px]">
           Bantouclub a pour but est de créer des passerelles interculturelles
           auprès de publics n'ayant pas l'habitude de communiquer entre eux en
@@ -38,7 +40,7 @@
           *Bantou signifie le peuple, les humains.
         </p>
       </div>
-      <div class="col-2 flex flex-col max-w-3/7 gap-y-2">
+      <div class="col-2 flex flex-col lg:max-w-3/7 gap-y-2">
         <img
           src="../../public/notreint/IMG_1616.webp"
           class="cursor-pointer"

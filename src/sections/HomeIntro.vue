@@ -6,7 +6,7 @@
           <img src="../../public/home/IMG_0928.JPG" alt="" />
         </div>
         <div class="content">
-          <h1 class="anton">
+          <h1 class="anton lg:text-[60px] text-[40px]">
             <span class="surligne">PLONGEZ DANS</span>
             <span class="surligne">LA MAGIE DU CINÉMA</span>
           </h1>
@@ -59,7 +59,6 @@
 .content h1 {
   text-align: center;
   line-height: 65px;
-  font-size: 60px;
   color: #5fb822;
 }
 

@@ -1,15 +1,46 @@
 <template>
   <nav class="w-full bg-[#FDF731] py-2 sticky top-0 z-50">
-    <div class="max-w-[1200px] mx-auto my-0 flex justify-between items-center">
+    <div
+      class="max-w-[1200px] lg:w-full mx-auto my-0 flex justify-between items-center px-4"
+    >
       <div class="logo">
         <slot name="logo">
           <a href="/"><img src="" alt="" /></a>
         </slot>
       </div>
-      <ul class="flex gap-3">
+
+      <button
+        class="md:hidden flex flex-col justify-center gap-1.5 w-8 h-8"
+        @click="isOpen = !isOpen"
+        aria-label="Ouvrir le menu"
+      >
+        <span
+          class="block h-0.5 w-6 bg-black transition-transform duration-300"
+          :class="isOpen ? 'rotate-45 translate-y-2' : ''"
+        ></span>
+        <span
+          class="block h-0.5 w-6 bg-black transition-opacity duration-300"
+          :class="isOpen ? 'opacity-0' : ''"
+        ></span>
+        <span
+          class="block h-0.5 w-6 bg-black transition-transform duration-300"
+          :class="isOpen ? '-rotate-45 -translate-y-2' : ''"
+        ></span>
+      </button>
+
+      <!-- menu desktop -->
+      <ul class="hidden md:flex gap-3">
         <slot />
       </ul>
     </div>
+
+    <!-- menu mobile -->
+    <ul
+      class="md:hidden flex flex-col items-center gap-3 overflow-hidden transition-all duration-300"
+      :class="isOpen ? 'max-h-96 py-4' : 'max-h-0 py-0'"
+    >
+      <slot />
+    </ul>
   </nav>
 </template>
 
@@ -57,4 +88,8 @@ ul :slotted(a.router-link-exact-active)::after {
 }
 </style>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const isOpen = ref(false);
+</script>

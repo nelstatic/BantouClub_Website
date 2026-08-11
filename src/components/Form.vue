@@ -1,6 +1,9 @@
 <template>
-  <form class="flex flex-col gap-6 calibri" @submit.prevent="handleSubmit">
-    <div class="flex gap-5">
+  <form
+    class="flex flex-col gap-6 calibri w-full"
+    @submit.prevent="handleSubmit"
+  >
+    <div class="flex flex-col sm:flex-row gap-5">
       <div class="flex flex-col flex-1">
         <label for="firstname" :style="{ color: labelColor }">
           Prénom <span class="text-sm">(obligatoire)</span>
@@ -10,7 +13,7 @@
           v-model="form.firstname"
           type="text"
           required
-          class="border rounded-2xl px-3 py-2"
+          class="border rounded-2xl px-3 py-2 focus:outline-none w-full"
         />
       </div>
       <div class="flex flex-col flex-1">
@@ -22,7 +25,7 @@
           v-model="form.lastname"
           type="text"
           required
-          class="border rounded-2xl px-3 py-2"
+          class="border rounded-2xl px-3 py-2 focus:outline-none w-full"
         />
       </div>
     </div>
@@ -36,7 +39,7 @@
         v-model="form.email"
         type="email"
         required
-        class="border rounded-2xl px-3 py-2"
+        class="border rounded-2xl px-3 py-2 focus:outline-none w-full"
       />
 
       <div v-if="showSubscribe" class="flex items-center gap-2 mt-2">
@@ -54,7 +57,7 @@
         v-model="form.message"
         rows="4"
         required
-        class="border rounded-3xl px-3 py-2 resize-none"
+        class="border rounded-3xl px-3 py-2 resize-none focus:outline-none w-full"
       ></textarea>
     </div>
 
