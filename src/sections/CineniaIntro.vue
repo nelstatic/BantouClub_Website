@@ -13,11 +13,7 @@
           DIRECTION ET UN OBJECTIF CLAIR.
         </p>
 
-        <img
-          src="../../public/cinenia/CinéNia.png"
-          alt=""
-          class="lg:w-[400px] w-[250px]"
-        />
+        <img src="/cinenia/CinéNia.png" alt="" class="lg:w-[400px] w-[250px]" />
       </div>
       <p
         class="anton lg:text-[23px] text-[16px] mx-auto max-w-[90%] lg:max-w-full"

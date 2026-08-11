@@ -42,16 +42,16 @@
       </div>
       <div class="col-2 flex flex-col lg:max-w-3/7 gap-y-2">
         <img
-          src="../../public/notreint/IMG_1616.webp"
+          src="/notreint/IMG_1616.webp"
           class="cursor-pointer"
           alt=""
-          @click="openModal('../../public/notreint/IMG_1616.webp')"
+          @click="openModal('/notreint/IMG_1616.webp')"
         />
         <img
-          src="../../public/notreint/IMG_1614.webp"
+          src="/notreint/IMG_1614.webp"
           class="cursor-pointer"
           alt=""
-          @click="openModal('../../public/notreint/IMG_1614.webp')"
+          @click="openModal('/notreint/IMG_1614.webp')"
         />
         <p class="calibri font-bold italic text-[16px]">
           Panel Talk, la mémoire comme matière. Quand l'image reconstruit

@@ -16,10 +16,10 @@
             class="w-1/2 pt-16 pr-16"
           />
           <img
-            src="../../public/contact/IMG_0927.JPG"
+            src="/contact/IMG_0927.JPG"
             class="w-[700px] object-cover cursor-pointer"
             alt=""
-            @click="openModal('../../public/contact/IMG_0927.JPG')"
+            @click="openModal('/contact/IMG_0927.JPG')"
           />
         </div>
       </div>

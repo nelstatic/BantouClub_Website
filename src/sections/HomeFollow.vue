@@ -10,28 +10,28 @@
         class="grid grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-2 py-5"
       >
         <img
-          src="../../public/home/paneltalk.png"
+          src="/home/paneltalk.png"
           alt=""
           class="cursor-pointer"
-          @click="openModal('../../public/home/paneltalk.png')"
+          @click="openModal('/home/paneltalk.png')"
         />
         <img
-          src="../../public/home/cineniaa0.png"
+          src="/home/cineniaa0.png"
           alt=""
           class="cursor-pointer"
-          @click="openModal('../../public/home/cineniaa0.png')"
+          @click="openModal('/home/cineniaa0.png')"
         />
         <img
-          src="../../public/home/v3.png"
+          src="/home/v3.png"
           alt=""
           class="cursor-pointer"
-          @click="openModal('../../public/home/v3.png')"
+          @click="openModal('/home/v3.png')"
         />
         <img
-          src="/public/home/whatsapp.jpeg"
+          src="/home/whatsapp.jpeg"
           alt=""
           class="cursor-pointer"
-          @click="openModal('../../public/home/whatsapp.jpeg')"
+          @click="openModal('/home/whatsapp.jpeg')"
         />
       </div>
       <a

@@ -4,10 +4,10 @@
       class="flex flex-col-reverse lg:flex-row gap-5 max-w-[1200px] lg:w-full w-[90%] mx-auto my-0 justify-between"
     >
       <img
-        src="../../public/home/IMG_0925.webp"
+        src="/home/IMG_0925.webp"
         class="w-[500px] object-cover cursor-pointer"
         alt=""
-        @click="openModal('../../public/home/IMG_0925.webp')"
+        @click="openModal('/home/IMG_0925.webp')"
       />
       <div class="flex flex-col gap-8 lg:max-w-[50%] lg:py-15 py-12">
         <h2 class="text-[#5FB822] anton text-[30px] lg:text-[60px]">

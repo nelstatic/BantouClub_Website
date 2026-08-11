@@ -10,44 +10,44 @@
         class="grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-3 lg:max-w-full max-w-[90%] mx-auto"
       >
         <Card
-          affiche="../../public/cinenia/amonage.png"
+          affiche="/cinenia/amonage.png"
           titre="À MON ÂGE, JE ME CACHE ENCORE POUR FUMER"
-          @click="openModal('../../public/cinenia/amonage.png')"
+          @click="openModal('/cinenia/amonage.png')"
         />
         <Card
-          affiche="../../public/cinenia/Union.png"
+          affiche="/cinenia/Union.png"
           titre="TONGO SAA"
-          @click="openModal('../../public/cinenia/Union.png')"
+          @click="openModal('/cinenia/Union.png')"
         />
         <Card
-          affiche="../../public/cinenia/ifbealstreetcould.png"
+          affiche="/cinenia/ifbealstreetcould.png"
           titre="IF BEALE STREET COULD TALK"
-          @click="openModal('../../public/cinenia/ifbealstreetcould.png')"
+          @click="openModal('/cinenia/ifbealstreetcould.png')"
         />
         <Card
-          affiche="../../public/cinenia/femmeaucouteau.png"
+          affiche="/cinenia/femmeaucouteau.png"
           titre="LA FEMME DU COUTEAU"
-          @click="openModal('../../public/cinenia/femmeaucouteau.png')"
+          @click="openModal('/cinenia/femmeaucouteau.png')"
         />
         <Card
-          affiche="../../public/cinenia/augure.png"
+          affiche="/cinenia/augure.png"
           titre="AUGURE"
           @click="openModal('../../public/cinenia/augure.png')"
         />
         <Card
-          affiche="../../public/cinenia/joliecoiffure.png"
+          affiche="/cinenia/joliecoiffure.png"
           titre="CHEZ JOLIE COIFFURE"
-          @click="openModal('../../public/cinenia/joliecoiffure.png')"
+          @click="openModal('/cinenia/joliecoiffure.png')"
         />
         <Card
-          affiche="../../public/cinenia/Casablanca.png"
-          titre="CHEZ JOLIE COIFFURE"
+          affiche="/cinenia/Casablanca.png"
+          titre="CASABLANCA"
           @click="openModal('../../public/cinenia/Casablanca.png')"
         />
         <Card
-          affiche="../../public/cinenia/BAO.png"
-          titre="CHEZ JOLIE COIFFURE"
-          @click="openModal('../../public/cinenia/BAO.png')"
+          affiche="/cinenia/BAO.png"
+          titre="LES SAIGNANTES"
+          @click="openModal('/cinenia/BAO.png')"
         />
       </div>
     </div>

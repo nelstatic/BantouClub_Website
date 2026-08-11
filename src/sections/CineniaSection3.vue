@@ -22,20 +22,18 @@
       </p>
       <div class="flex flex-col lg:flex-row gap-3 justify-between">
         <img
-          src="../../public/cinenia/7b9b80bb-b425-4560-8277-a80f907d484e.JPG"
+          src="/cinenia/7b9b80bb-b425-4560-8277-a80f907d484e.JPG"
           class="lg:w-[590px] lg:h-[400px] w-[90%] object-cover cursor-pointer mx-auto"
           alt=""
           @click="
-            openModal(
-              '../../public/cinenia/7b9b80bb-b425-4560-8277-a80f907d484e.JPG',
-            )
+            openModal('/cinenia/7b9b80bb-b425-4560-8277-a80f907d484e.JPG')
           "
         />
         <img
-          src="../../public/cinenia/DSC_0039.JPG"
+          src="/cinenia/DSC_0039.JPG"
           class="lg:w-[590px] lg:h-[400px] w-[90%] object-cover cursor-pointer mx-auto"
           alt=""
-          @click="openModal('../../public/cinenia/DSC_0039.JPG')"
+          @click="openModal('/cinenia/DSC_0039.JPG')"
         />
       </div>
       <p
