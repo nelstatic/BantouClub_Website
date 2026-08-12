@@ -3,7 +3,11 @@
     <Navbar>
       <template #logo>
         <router-link to="/">
-          <img src="" alt="" />
+          <img
+            src="/navbar/logo.png"
+            alt=""
+            class="lg:w-[180px] lg:h-[60px] w-[120px] h-[60px] object-cover"
+          />
         </router-link>
       </template>
 

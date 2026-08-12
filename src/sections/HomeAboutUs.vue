@@ -26,7 +26,7 @@
         </p>
         <div class="mx-auto my-0 py-13">
           <a
-            href="#"
+            href="/notre-intention"
             class="py-4 px-11 rounded-[35px] text-[#fdf731] bg-[#ed3f3f] tracking-tighter text-[15px]"
             >EN SAVOIR PLUS</a
           >

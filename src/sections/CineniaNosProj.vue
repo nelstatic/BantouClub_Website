@@ -32,7 +32,7 @@
         <Card
           affiche="/cinenia/augure.png"
           titre="AUGURE"
-          @click="openModal('../../public/cinenia/augure.png')"
+          @click="openModal('/cinenia/augure.png')"
         />
         <Card
           affiche="/cinenia/joliecoiffure.png"
@@ -40,9 +40,9 @@
           @click="openModal('/cinenia/joliecoiffure.png')"
         />
         <Card
-          affiche="/cinenia/Casablanca.png"
+          affiche="/cinenia/Casablanca.jpg"
           titre="CASABLANCA"
-          @click="openModal('../../public/cinenia/Casablanca.png')"
+          @click="openModal('/cinenia/Casablanca.jpg')"
         />
         <Card
           affiche="/cinenia/BAO.png"

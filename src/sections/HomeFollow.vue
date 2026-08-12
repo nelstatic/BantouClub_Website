@@ -35,7 +35,7 @@
         />
       </div>
       <a
-        href="#"
+        href="https://www.instagram.com/bantouclub/"
         class="py-4 px-11 rounded-[30px] bg-[#FDF731] text-red-500 calibri tracking-tighter text-[15px]"
         >REJOINS-NOUS</a
       >
