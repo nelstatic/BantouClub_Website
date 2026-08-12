@@ -36,6 +36,7 @@
       </div>
       <a
         href="https://www.instagram.com/bantouclub/"
+        target="_blank"
         class="py-4 px-11 rounded-[30px] bg-[#FDF731] text-red-500 calibri tracking-tighter text-[15px]"
         >REJOINS-NOUS</a
       >
