@@ -4,7 +4,7 @@
       <template #logo>
         <router-link to="/">
           <img
-            src="/navbar/logo.png"
+            src="/general/logo.png"
             alt=""
             class="lg:w-[180px] lg:h-[60px] w-[120px] h-[60px] object-cover"
           />
