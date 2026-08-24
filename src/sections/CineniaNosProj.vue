@@ -26,7 +26,7 @@
         />
         <Card
           affiche="/cinenia/femmeaucouteau.png"
-          titre="LA FEMME DU COUTEAU"
+          titre="LA FEMME AU COUTEAU"
           @click="openModal('/cinenia/femmeaucouteau.png')"
         />
         <Card
@@ -41,7 +41,7 @@
         />
         <Card
           affiche="/cinenia/Casablanca.jpg"
-          titre="CASABLANCA"
+          titre="DÔLÉ"
           @click="openModal('/cinenia/Casablanca.jpg')"
         />
         <Card
