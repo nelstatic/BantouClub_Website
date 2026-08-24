@@ -41,7 +41,7 @@
         />
         <Card
           affiche="/cinenia/Casablanca.jpg"
-          titre="DÔLÉ"
+          titre="DÔLÈ"
           @click="openModal('/cinenia/Casablanca.jpg')"
         />
         <Card
