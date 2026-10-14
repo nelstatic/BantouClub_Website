@@ -6,38 +6,39 @@
       <div class="col-1 flex flex-col lg:max-w-3/7 gap-12 pb-10 lg:pb-0">
         <h1 class="anton text-[50px] lg:text-[60px]">NOTRE INTENTION</h1>
         <p class="calibri font-bold text-[16px]">
-          Bantouclub a pour but est de créer des passerelles interculturelles
-          auprès de publics n'ayant pas l'habitude de communiquer entre eux en
+          Bantouclub a pour but de créer des passerelles interculturelles auprès
+          de publics n'ayant pas l'habitude de communiquer entre eux en
           célébrant les diversités.
         </p>
         <p class="calibri text-[16px]">
-          Notre intention est de créer des mondes en partage motivée par un
-          pourquoi social. Cela s'est imposé en constatant la difficulté de
-          circulation de certaines productions culturelles,
+          Notre intention est de créer des mondes en partage, motivés par un
+          « pourquoi » social. Cette volonté s'est imposée à partir du constat
+          de la difficulté de circulation de certaines productions culturelles,
           <span class="font-bold"
             >souvent appréciés seulement pour leur caractère niche ou dit «
-            issue de la diversité »</span
+            issue de la diversité »,</span
           >
           même lorsque les consommateurs sont culturellement concernés.
         </p>
         <p class="calibri text-[16px]">
           <span class="font-bold">Contribuer à une mosaïque culturelle</span>
           plus homogène et accessible,<span class="font-bold">
-            tout en continuant de questionner : qui fait l'art et pour qui</span
-          >. A travers des événements, rencontres et propositions artistiques,
-          le projet met en lumière des esthétiques, des récits et des
-          imaginaires issus des cultures africaines et diasporiques, tout en
-          favorisant
+            tout en continuant de questionner : qui fait l'art et pour qui
+            ?</span
+          >
+          À travers des événements, rencontres et propositions artistiques, le
+          projet met en lumière des esthétiques, des récits et des imaginaires
+          issus des cultures africaines et diasporiques, tout en favorisant
           <span class="font-bold"
-            >le dialogue, latransmission et la création collective</span
+            >le dialogue, la transmission et la création collective</span
           >
           afin de réduire l'entre-soi et proposer une lecture du monde plus
           populaire et inclusive.
         </p>
         <p class="calibri font-bold text-[16px]">
-          *Bantou caractérise les peuples allant de l'Afrique centrale à
+          * « Bantou »  caractérise les peuples allant de l'Afrique centrale à
           l'Afrique du Sud ayant des langues et des cultures similaires.<br />
-          *Bantou signifie le peuple, les humains.
+          * « Bantou »  signifie « le peuple », « les humains ».
         </p>
       </div>
       <div class="col-2 flex flex-col lg:max-w-3/7 gap-y-2">
